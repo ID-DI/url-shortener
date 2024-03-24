@@ -59,7 +59,7 @@ require_once __DIR__ . "/classes/db.php";
                         $i++;
                         echo "
                         <td class='m-1 p-1'>
-                            <a target='_blank' onclick='refreshIndexPage()' href='shorten.php?id={$row['id']}'>http://"?><?=$row['short_code']?> 
+                            <a target='_blank' onclick='refreshIndexPage()' href='handleShort.php?id={$row['id']}'>http://"?><?=$row['short_code']?> 
                         <?php       
                         echo
                             "</a>
